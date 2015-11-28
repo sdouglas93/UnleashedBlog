@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UnleashedBlog.Models.EntityFramework.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="UnleashedBlogModelsEntityFrameworkStoreContainer">
+    <EntitySet Name="BlogEntries" EntityType="UnleashedBlog.Models.EntityFramework.Store.BlogEntries" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="BlogEntries">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Author" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DatePublished" Type="datetime" Nullable="false" />
+    <Property Name="DateModified" Type="datetime" />
+    <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Text" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+</Schema>
