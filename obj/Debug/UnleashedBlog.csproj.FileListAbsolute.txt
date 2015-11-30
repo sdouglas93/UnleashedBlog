@@ -3,3 +3,8 @@ c:\users\sareenah\documents\visual studio 2010\Projects\UnleashedBlog\UnleashedB
 c:\users\sareenah\documents\visual studio 2010\Projects\UnleashedBlog\UnleashedBlog\obj\Debug\UnleashedBlog.csprojResolveAssemblyReference.cache
 c:\users\sareenah\documents\visual studio 2010\Projects\UnleashedBlog\UnleashedBlog\obj\Debug\UnleashedBlog.dll
 c:\users\sareenah\documents\visual studio 2010\Projects\UnleashedBlog\UnleashedBlog\obj\Debug\UnleashedBlog.pdb
+C:\Users\H153813\Documents\Visual Studio 2010\Projects\UnleashedBlog\bin\UnleashedBlog.dll
+C:\Users\H153813\Documents\Visual Studio 2010\Projects\UnleashedBlog\bin\UnleashedBlog.pdb
+C:\Users\H153813\Documents\Visual Studio 2010\Projects\UnleashedBlog\obj\Debug\UnleashedBlog.csprojResolveAssemblyReference.cache
+C:\Users\H153813\Documents\Visual Studio 2010\Projects\UnleashedBlog\obj\Debug\UnleashedBlog.dll
+C:\Users\H153813\Documents\Visual Studio 2010\Projects\UnleashedBlog\obj\Debug\UnleashedBlog.pdb

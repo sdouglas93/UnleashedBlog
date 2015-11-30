@@ -11,15 +11,27 @@
     <table>
         <tr>
             <th></th>
+            <th>
+                Name
+            </th>
+            <th>
+                DatePublished
+            </th>
         </tr>
 
     <% foreach (var item in Model) { %>
     
         <tr>
             <td>
-                <%: Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) %> |
-                <%: Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })%> |
+                <%= Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) %> |
+                <%= Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })%> |
                 <%: Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })%>
+            </td>
+            <td>
+                <%= Html.Encode(item.Name) %>
+            </td>
+            <td>
+                <%= Html.Encode(String.Format("{0:g}", item.DatePublished)) %>
             </td>
         </tr>
     
@@ -28,8 +40,7 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Create New", "Create") %>
+        <%= Html.ActionLink("Create New", "Create") %>
     </p>
 
 </asp:Content>
-
